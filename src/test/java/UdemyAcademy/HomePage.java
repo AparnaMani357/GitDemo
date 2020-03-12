@@ -50,6 +50,7 @@ public class HomePage extends base {
 		login.getLogButton().click();
 
 		System.out.println("Hi,Hello,Namaste GIT");
+		System.out.println("Thanks for Hi,Hello and Namaste");
 		
 		log.info("URL opened successfully with"+UserName);
 		
