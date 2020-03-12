@@ -48,6 +48,8 @@ public class HomePage extends base {
 		login.getEmail().sendKeys(UserName);
 		login.getPassword().sendKeys(Pwd);
 		login.getLogButton().click();
+
+		System.out.println("Hi,Hello,Namaste GIT");
 		
 		log.info("URL opened successfully with"+UserName);
 		
