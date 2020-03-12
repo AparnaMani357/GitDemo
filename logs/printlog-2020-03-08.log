@@ -1,0 +1,5 @@
+22:08:28.723 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@53dfacba
+22:08:28.744 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@79767781
+22:08:28.822 [main] INFO  UdemyAcademy.HomePage - Browser opened successfully
+22:08:50.929 [main] INFO  UdemyAcademy.HomePage - URL opened successfully
+22:09:16.197 [main] INFO  UdemyAcademy.HomePage - clicked on login

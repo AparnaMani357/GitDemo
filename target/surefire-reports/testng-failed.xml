@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="UdemyAcademy.ListenerClass"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="ValidateTitleTest(failed)">
+    <classes>
+      <class name="UdemyAcademy.ValidateTitle">
+        <methods>
+          <include name="Initialize"/>
+          <include name="CloseConnection"/>
+          <include name="validationOfTitle"/>
+        </methods>
+      </class> <!-- UdemyAcademy.ValidateTitle -->
+    </classes>
+  </test> <!-- ValidateTitleTest(failed) -->
+  <test thread-count="5" verbose="0" name="ValidateNavigationTest(failed)">
+    <classes>
+      <class name="UdemyAcademy.ValidateNavigation">
+        <methods>
+          <include name="Initialize"/>
+          <include name="CloseConnection"/>
+          <include name="validationOfNavigation"/>
+        </methods>
+      </class> <!-- UdemyAcademy.ValidateNavigation -->
+    </classes>
+  </test> <!-- ValidateNavigationTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

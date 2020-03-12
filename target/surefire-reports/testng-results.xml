@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="37633" started-at="2020-03-10T14:58:51 IST" finished-at="2020-03-10T14:59:29 IST">
+    <groups>
+    </groups>
+    <test name="ValidateTitleTest" duration-ms="22030" started-at="2020-03-10T14:58:51 IST" finished-at="2020-03-10T14:59:13 IST">
+      <class name="UdemyAcademy.ValidateTitle">
+        <test-method status="PASS" signature="Initialize()[pri:0, instance:UdemyAcademy.ValidateTitle@198b6731]" name="Initialize" is-config="true" duration-ms="21508" started-at="2020-03-10T14:58:51 IST" finished-at="2020-03-10T14:59:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initialize -->
+        <test-method status="PASS" signature="validationOfTitle()[pri:0, instance:UdemyAcademy.ValidateTitle@198b6731]" name="validationOfTitle" duration-ms="331" started-at="2020-03-10T14:59:13 IST" finished-at="2020-03-10T14:59:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validationOfTitle -->
+        <test-method status="PASS" signature="CloseConnection()[pri:0, instance:UdemyAcademy.ValidateTitle@198b6731]" name="CloseConnection" is-config="true" duration-ms="74" started-at="2020-03-10T14:59:13 IST" finished-at="2020-03-10T14:59:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseConnection -->
+      </class> <!-- UdemyAcademy.ValidateTitle -->
+    </test> <!-- ValidateTitleTest -->
+    <test name="ValidateNavigationTest" duration-ms="15355" started-at="2020-03-10T14:59:13 IST" finished-at="2020-03-10T14:59:29 IST">
+      <class name="UdemyAcademy.ValidateNavigation">
+        <test-method status="PASS" signature="Initialize()[pri:0, instance:UdemyAcademy.ValidateNavigation@7817fd62]" name="Initialize" is-config="true" duration-ms="13906" started-at="2020-03-10T14:59:13 IST" finished-at="2020-03-10T14:59:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initialize -->
+        <test-method status="PASS" signature="validationOfNavigation()[pri:0, instance:UdemyAcademy.ValidateNavigation@7817fd62]" name="validationOfNavigation" duration-ms="582" started-at="2020-03-10T14:59:27 IST" finished-at="2020-03-10T14:59:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validationOfNavigation -->
+        <test-method status="PASS" signature="CloseConnection()[pri:0, instance:UdemyAcademy.ValidateNavigation@7817fd62]" name="CloseConnection" is-config="true" duration-ms="863" started-at="2020-03-10T14:59:28 IST" finished-at="2020-03-10T14:59:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseConnection -->
+      </class> <!-- UdemyAcademy.ValidateNavigation -->
+    </test> <!-- ValidateNavigationTest -->
+  </suite> <!-- Suite -->
+</testng-results>
